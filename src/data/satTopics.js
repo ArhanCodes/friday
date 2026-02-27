@@ -1,0 +1,36 @@
+export const SAT_SUBJECTS = [
+  {
+    name: 'SAT Math',
+    examType: 'sat',
+    color: '#3b82f6',
+    topics: [
+      'Algebra & Linear Equations',
+      'Problem Solving & Data Analysis',
+      'Advanced Math (Quadratics & Polynomials)',
+      'Geometry & Trigonometry',
+      'Statistics & Probability',
+      'Ratios, Rates & Proportions',
+      'Systems of Equations',
+      'Exponential Functions',
+      'Circle Equations',
+      'Complex Numbers',
+    ],
+  },
+  {
+    name: 'SAT Reading & Writing',
+    examType: 'sat',
+    color: '#8b5cf6',
+    topics: [
+      'Central Ideas & Details',
+      'Command of Evidence (Textual)',
+      'Command of Evidence (Quantitative)',
+      'Inferences',
+      'Words in Context',
+      'Text Structure & Purpose',
+      'Cross-Text Connections',
+      'Rhetorical Synthesis',
+      'Standard English Conventions',
+      'Transitions & Flow',
+    ],
+  },
+];
