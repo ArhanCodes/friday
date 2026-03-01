@@ -52,7 +52,7 @@ Type or speak commands like `add task: finish physics homework by Friday` or `ge
 |---|---|
 | **React 19** | UI framework |
 | **Vite 7** | Build tool + dev server |
-| **Tailwind CSS 4** | Styling (Iron Man HUD dark theme) |
+| **Tailwind CSS 4** | Styling |
 | **chrono-node** | Natural language date parsing |
 | **lucide-react** | Icons |
 | **Web Speech API** | Voice input/output (built into browsers) |
