@@ -1,5 +1,7 @@
 # F.R.I.D.A.Y
 
+> Very much a WIP
+
 A browser-based personal AI assistant that manages your academic life. (tasks, study schedules, exam revision, calendar, and voice interaction all runs locally with no API keys)
 
 ![React](https://img.shields.io/badge/React-19-blue) ![Vite](https://img.shields.io/badge/Vite-7-purple) ![Tailwind](https://img.shields.io/badge/Tailwind_CSS-4-cyan) ![License](https://img.shields.io/badge/License-MIT-green)
