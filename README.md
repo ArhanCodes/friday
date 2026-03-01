@@ -1,29 +1,29 @@
-# F.R.I.D.A.Y. - Personal Command AI for Students
+# F.R.I.D.A.Y
 
-A browser-based personal AI assistant inspired by Iron Man's F.R.I.D.A.Y. Manages your academic life — tasks, study schedules, exam revision, calendar, and voice interaction — all running locally with **zero API keys and zero cost**.
+A browser-based personal AI assistant that manages your academic life. (tasks, study schedules, exam revision, calendar, and voice interaction all runs locally with no API keys)
 
 ![React](https://img.shields.io/badge/React-19-blue) ![Vite](https://img.shields.io/badge/Vite-7-purple) ![Tailwind](https://img.shields.io/badge/Tailwind_CSS-4-cyan) ![License](https://img.shields.io/badge/License-MIT-green)
 
 ## Features
 
 ### Natural Language Commands
-Type or speak commands like `add task: finish physics homework by Friday` or `generate study schedule`. F.R.I.D.A.Y. understands dates, subjects, priorities, and more — all with client-side regex + chrono-node, no AI API needed.
+Type or speak commands like `add task: finish physics homework by Friday` or `generate study schedule`. F.R.I.D.A.Y. understands dates, subjects, priorities, etc.
 
 ### Task Management
 - Add, complete, and track tasks with deadlines and priorities
 - Auto-detected urgency scoring with countdown timers
 - Subject tagging (Physics, Maths, Chemistry, Economics, etc.)
-- **Quick Import** — paste assignment text from Teams, Google Classroom, or any school portal and F.R.I.D.A.Y. auto-parses each line into tasks
+- Quick Import — paste assignment text from Teams, Google Classroom, or any school portal and F.R.I.D.A.Y. auto-parses each line into tasks
 
 ### Study Schedule Generation
 - Greedy scheduling algorithm that fills your week with study blocks
-- Deadline-aware: tasks get scheduled before their due date
+- Deadline aware: tasks get scheduled before their due date
 - Weak topics get priority slots proportional to their weakness score
 - Manual block creation alongside auto-generation
 
-### Calendar View
+### Calendar
 - Monthly calendar grid with task deadlines and schedule blocks
-- Colour-coded pills (priority for tasks, type for blocks)
+- Colour coded pills (priority for tasks, type for blocks)
 - Click any day to see full detail panel with tasks due and schedule
 - Complete tasks and blocks directly from the calendar
 
@@ -37,7 +37,7 @@ Type or speak commands like `add task: finish physics homework by Friday` or `ge
 ### Voice I/O
 - Speech recognition for hands-free command input (Web Speech API)
 - Text-to-speech responses with customisable voice, speed, and pitch
-- F.R.I.D.A.Y. personality — context-aware, slightly witty responses
+- F.R.I.D.A.Y. personality, context aware
 
 ### Authentication
 - Local login/signup system with SHA-256 password hashing
@@ -56,7 +56,6 @@ Type or speak commands like `add task: finish physics homework by Friday` or `ge
 | **Web Speech API** | Voice input/output (built into browsers) |
 | **localStorage** | Data persistence |
 
-**No backend. No database. No API keys. No cost.**
 
 ## Getting Started
 
@@ -118,12 +117,5 @@ src/
 | `show weak topics` | Lists topics that need revision |
 | `show my tasks` | Switches to task list view |
 
-## Deployment
-
-FRIDAY is deployed via GitHub Actions to GitHub Pages. Every push to `main` triggers an automatic build and deploy.
-
-## Built By
-
-**Arhan Harchandani** — [arhan.dev](https://arhan.dev)
 
 Built with the help of Claude Code.
