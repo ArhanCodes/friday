@@ -12,7 +12,7 @@ Type or speak commands like `add task: finish physics homework by Friday` or `ge
 ### Task Management
 - Add, complete, and track tasks with deadlines and priorities
 - Auto-detected urgency scoring with countdown timers
-- Subject tagging (Physics, Maths, Chemistry, Economics, etc.)
+- Subject tagging (physics, maths, chemistry, economics, etc)
 - Quick Import — paste assignment text from Teams, Google Classroom, or any school portal and F.R.I.D.A.Y. auto-parses each line into tasks
 
 ### Study Schedule Generation
@@ -42,7 +42,7 @@ Type or speak commands like `add task: finish physics homework by Friday` or `ge
 ### Authentication
 - Local login/signup system with SHA-256 password hashing
 - Per-user data isolation via localStorage
-- No server, no database — everything stays on your device
+- No server + database
 
 ## Tech Stack
 
@@ -72,7 +72,7 @@ npm install
 npm run dev
 ```
 
-Open [http://localhost:5173](http://localhost:5173) in your browser.
+Open [http://localhost:5173](http://localhost:5173) in your browser
 
 ### Build for Production
 
@@ -116,6 +116,3 @@ src/
 | `generate study schedule` | Auto-generates a week of study blocks |
 | `show weak topics` | Lists topics that need revision |
 | `show my tasks` | Switches to task list view |
-
-
-Built with the help of Claude Code.
